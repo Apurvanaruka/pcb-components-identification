@@ -62,9 +62,9 @@ if uploaded_file is not None:
         plt.axis('off')
         st.pyplot(fig)
         
-    # with st.spinner('Response Generating...'):
-    #     response = get_response(image)
-    #     st.markdown(response)
+    with st.spinner('Response Generating...'):
+        response = get_response(image)
+        st.markdown(response)
         
     for i, box in enumerate(results[0].boxes):
         label = int(box.cls.item())
@@ -105,18 +105,6 @@ if uploaded_file is not None:
         for box in component_list['Transformer']:
             img, confidence = show_img_info(box)
             st.image(img,width=200,caption=confidence)
-
-
-
-        # col1, col2 = st.columns(2)
-        
-        # with col1:
-        #     st.image(cropped_image,width=250, use_column_width=False)
-        # with col2:
-        #     st.markdown(f'### Name {names[label]}')
-        #     st.write(f"Label: {label}")
-        #     st.write(f"Confidence: {confidence:.2f}")
-        #     st.write(f"BBox: {bbox}")
 
 else:
     path = '../models/runs/detect/train5/'
