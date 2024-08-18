@@ -1,0 +1,6 @@
+train: /content/drive/MyDrive/pcb-fault-detection/Data/train
+val: /content/drive/MyDrive/pcb-fault-detection/Data/validation
+test: /content/drive/MyDrive/pcb-fault-detection/Data/test
+
+nc: 9
+names: ['Cap1', 'Cap2', 'Cap3', 'Cap4', 'MOSFET', 'Mov', 'Resestor', 'Resistor', 'Transformer']

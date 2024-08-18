@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <job>
+      <id>1156345</id>
+      <size>83</size>
+      <mode>annotation</mode>
+      <overlap>0</overlap>
+      <bugtracker></bugtracker>
+      <created>2024-08-17 05:11:01.725282+00:00</created>
+      <updated>2024-08-17 09:36:27.229223+00:00</updated>
+      <subset>default</subset>
+      <start_frame>0</start_frame>
+      <stop_frame>82</stop_frame>
+      <frame_filter></frame_filter>
+      <segments>
+        <segment>
+          <id>1158521</id>
+          <start>0</start>
+          <stop>82</stop>
+          <url>https://app.cvat.ai/api/jobs/1156345</url>
+        </segment>
+      </segments>
+      <owner>
+        <username>apurva8</username>
+        <email>apurvanaruka6@gmail.com</email>
+      </owner>
+      <assignee></assignee>
+      <labels>
+        <label>
+          <name>register</name>
+          <color>#c04b43</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>transformer</name>
+          <color>#dcb2c5</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>ic</name>
+          <color>#e8d0f2</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>capicitor 1</name>
+          <color>#f17f47</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+      </labels>
+    </job>
+    <dumped>2024-08-17 09:37:59.351585+00:00</dumped>
+  </meta>
+  <image id="0" name="component_0_0.0.jpg" width="163" height="167">
+    <box label="capicitor 1" source="manual" occluded="0" xtl="9.90" ytl="8.66" xbr="155.94" ybr="161.84" z_order="0">
+    </box>
+  </image>
+  <image id="1" name="component_0_1.0.jpg" width="98" height="97">
+    <box label="capicitor 1" source="manual" occluded="0" xtl="2.69" ytl="5.41" xbr="95.06" ybr="94.76" z_order="0">
+    </box>
+  </image>
+  <image id="2" name="component_0_2.0.jpg" width="180" height="155">
+    <box label="capicitor 1" source="manual" occluded="0" xtl="1.31" ytl="4.19" xbr="176.98" ybr="153.53" z_order="0">
+    </box>
+  </image>
+  <image id="3" name="component_0_4.0.jpg" width="160" height="134">
+    <box label="ic" source="manual" occluded="0" xtl="3.97" ytl="5.84" xbr="158.81" ybr="132.82" z_order="0">
+    </box>
+  </image>
+  <image id="4" name="component_0_5.0.jpg" width="165" height="237">
+    <box label="capicitor 1" source="manual" occluded="0" xtl="4.64" ytl="2.27" xbr="158.50" ybr="228.73" z_order="0">
+    </box>
+  </image>
+  <image id="5" name="component_0_7.0.jpg" width="76" height="85">
+    <box label="register" source="manual" occluded="0" xtl="1.37" ytl="0.00" xbr="74.09" ybr="84.05" z_order="0">
+    </box>
+  </image>
+  <image id="6" name="component_0_8.0.jpg" width="253" height="306">
+    <box label="transformer" source="manual" occluded="0" xtl="10.41" ytl="3.17" xbr="240.63" ybr="302.37" z_order="0">
+    </box>
+  </image>
+  <image id="7" name="component_10_0.0.jpg" width="202" height="201">
+    <box label="capicitor 1" source="manual" occluded="0" xtl="23.00" ytl="4.48" xbr="183.50" ybr="187.00" z_order="0">
+    </box>
+  </image>
+  <image id="8" name="component_10_3.0.jpg" width="271" height="216">
+    <box label="capicitor 1" source="manual" occluded="0" xtl="22.00" ytl="23.82" xbr="260.97" ybr="199.02" z_order="0">
+    </box>
+  </image>
+  <image id="9" name="component_10_7.0.jpg" width="118" height="104">
+    <box label="register" source="manual" occluded="0" xtl="0.00" ytl="18.74" xbr="118.00" ybr="92.53" z_order="0">
+    </box>
+  </image>
+  <image id="10" name="component_10_8.0.jpg" width="308" height="240">
+    <box label="transformer" source="manual" occluded="0" xtl="28.09" ytl="21.73" xbr="308.00" ybr="214.11" z_order="0">
+    </box>
+  </image>
+  <image id="11" name="component_11_5.0.jpg" width="237" height="129">
+    <box label="capicitor 1" source="manual" occluded="0" xtl="4.03" ytl="3.17" xbr="232.13" ybr="124.59" z_order="0">
+    </box>
+  </image>
+  <image id="12" name="component_11_7.0.jpg" width="105" height="122">
+    <box label="capicitor 1" source="manual" occluded="0" xtl="14.34" ytl="2.51" xbr="88.90" ybr="119.48" z_order="0">
+    </box>
+  </image>
+  <image id="13" name="component_12_1.0.jpg" width="131" height="125">
+    <box label="capicitor 1" source="manual" occluded="0" xtl="11.20" ytl="2.31" xbr="130.40" ybr="124.00" z_order="0">
+    </box>
+  </image>
+  <image id="14" name="component_1_0.0.jpg" width="218" height="209">
+    <box label="capicitor 1" source="manual" occluded="0" xtl="21.80" ytl="14.60" xbr="193.80" ybr="190.00" z_order="0">
+    </box>
+  </image>
+  <image id="15" name="component_1_1.0.jpg" width="137" height="118">
+    <box label="capicitor 1" source="manual" occluded="0" xtl="10.60" ytl="0.00" xbr="123.50" ybr="118.00" z_order="0">
+    </box>
+  </image>
+  <image id="16" name="component_1_2.0.jpg" width="279" height="227">
+    <box label="capicitor 1" source="manual" occluded="0" xtl="16.40" ytl="28.90" xbr="253.20" ybr="197.30" z_order="0">
+    </box>
+  </image>
+  <image id="17" name="component_1_3.0.jpg" width="310" height="248">
+    <box label="capicitor 1" source="manual" occluded="0" xtl="16.40" ytl="28.90" xbr="281.10" ybr="231.90" z_order="0">
+    </box>
+  </image>
+  <image id="18" name="component_1_4.0.jpg" width="122" height="138">
+    <box label="capicitor 1" source="manual" occluded="0" xtl="2.38" ytl="0.00" xbr="122.00" ybr="138.00" z_order="0">
+    </box>
+  </image>
+  <image id="19" name="component_1_5.0.jpg" width="250" height="133">
+    <box label="capicitor 1" source="manual" occluded="0" xtl="2.38" ytl="0.00" xbr="232.90" ybr="133.00" z_order="0">
+    </box>
+  </image>
+  <image id="20" name="component_1_7.0.jpg" width="94" height="95">
+    <box label="capicitor 1" source="manual" occluded="0" xtl="12.97" ytl="13.35" xbr="273.65" ybr="199.75" z_order="0">
+    </box>
+  </image>
+  <image id="21" name="component_1_8.0.jpg" width="335" height="290">
+    <box label="capicitor 1" source="manual" occluded="0" xtl="23.56" ytl="26.70" xbr="314.40" ybr="266.50" z_order="0">
+    </box>
+  </image>
+  <image id="22" name="component_2_0.0.jpg" width="197" height="200">
+    <box label="capicitor 1" source="manual" occluded="0" xtl="0.00" ytl="0.99" xbr="197.00" ybr="200.00" z_order="0">
+    </box>
+  </image>
+  <image id="23" name="component_2_1.0.jpg" width="119" height="120">
+    <box label="capicitor 1" source="manual" occluded="0" xtl="0.00" ytl="0.28" xbr="119.00" ybr="120.00" z_order="0">
+    </box>
+  </image>
+  <image id="24" name="component_2_2.0.jpg" width="236" height="278">
+    <box label="capicitor 1" source="manual" occluded="0" xtl="33.98" ytl="27.00" xbr="202.30" ybr="256.90" z_order="0">
+    </box>
+  </image>
+  <image id="25" name="component_2_4.0.jpg" width="129" height="154">
+    <box label="capicitor 1" source="manual" occluded="0" xtl="5.38" ytl="2.07" xbr="129.00" ybr="154.00" z_order="0">
+    </box>
+  </image>
+  <image id="26" name="component_2_5.0.jpg" width="228" height="130">
+    <box label="capicitor 1" source="manual" occluded="0" xtl="5.38" ytl="2.07" xbr="215.70" ybr="130.00" z_order="0">
+    </box>
+  </image>
+  <image id="27" name="component_2_7.0.jpg" width="119" height="103">
+    <box label="capicitor 1" source="manual" occluded="0" xtl="0.00" ytl="0.00" xbr="119.00" ybr="103.00" z_order="0">
+    </box>
+  </image>
+  <image id="28" name="component_2_8.0.jpg" width="229" height="195">
+    <box label="capicitor 1" source="manual" occluded="0" xtl="0.31" ytl="12.10" xbr="215.20" ybr="194.38" z_order="0">
+    </box>
+  </image>
+  <image id="29" name="component_3_0.0.jpg" width="163" height="162">
+    <box label="capicitor 1" source="manual" occluded="0" xtl="0.00" ytl="0.00" xbr="163.00" ybr="162.00" z_order="0">
+    </box>
+  </image>
+  <image id="30" name="component_3_1.0.jpg" width="102" height="102">
+    <box label="capicitor 1" source="manual" occluded="0" xtl="0.00" ytl="2.59" xbr="102.00" ybr="102.00" z_order="0">
+    </box>
+  </image>
+  <image id="31" name="component_3_2.0.jpg" width="234" height="198">
+    <box label="capicitor 1" source="manual" occluded="0" xtl="0.00" ytl="12.60" xbr="233.40" ybr="188.70" z_order="0">
+    </box>
+  </image>
+  <image id="32" name="component_3_3.0.jpg" width="204" height="242">
+    <box label="capicitor 1" source="manual" occluded="0" xtl="0.77" ytl="21.80" xbr="204.00" ybr="242.00" z_order="0">
+    </box>
+  </image>
+  <image id="33" name="component_3_4.0.jpg" width="150" height="173">
+    <box label="capicitor 1" source="manual" occluded="0" xtl="0.00" ytl="1.21" xbr="150.00" ybr="173.00" z_order="0">
+    </box>
+  </image>
+  <image id="34" name="component_3_5.0.jpg" width="257" height="180">
+    <box label="capicitor 1" source="manual" occluded="0" xtl="19.43" ytl="24.60" xbr="232.30" ybr="157.43" z_order="0">
+    </box>
+  </image>
+  <image id="35" name="component_3_7.0.jpg" width="103" height="110">
+    <box label="capicitor 1" source="manual" occluded="0" xtl="0.00" ytl="8.01" xbr="103.00" ybr="110.00" z_order="0">
+    </box>
+  </image>
+  <image id="36" name="component_3_8.0.jpg" width="196" height="242">
+    <box label="capicitor 1" source="manual" occluded="0" xtl="0.40" ytl="1.50" xbr="196.00" ybr="241.80" z_order="0">
+    </box>
+  </image>
+  <image id="37" name="component_4_0.0.jpg" width="115" height="146">
+    <box label="capicitor 1" source="manual" occluded="0" xtl="0.00" ytl="0.00" xbr="115.00" ybr="146.00" z_order="0">
+    </box>
+  </image>
+  <image id="38" name="component_4_2.0.jpg" width="184" height="164">
+    <box label="capicitor 1" source="manual" occluded="0" xtl="10.70" ytl="13.80" xbr="174.60" ybr="153.50" z_order="0">
+    </box>
+  </image>
+  <image id="39" name="component_4_3.0.jpg" width="280" height="241">
+    <box label="capicitor 1" source="manual" occluded="0" xtl="32.50" ytl="32.20" xbr="252.30" ybr="205.91" z_order="0">
+    </box>
+  </image>
+  <image id="40" name="component_4_4.0.jpg" width="187" height="162">
+    <box label="capicitor 1" source="manual" occluded="0" xtl="9.62" ytl="8.03" xbr="183.14" ybr="157.11" z_order="0">
+    </box>
+  </image>
+  <image id="41" name="component_4_5.0.jpg" width="254" height="174">
+    <box label="capicitor 1" source="manual" occluded="0" xtl="11.83" ytl="16.00" xbr="235.30" ybr="169.54" z_order="0">
+    </box>
+  </image>
+  <image id="42" name="component_4_7.0.jpg" width="127" height="123">
+    <box label="capicitor 1" source="manual" occluded="0" xtl="1.28" ytl="1.16" xbr="127.00" ybr="123.00" z_order="0">
+    </box>
+  </image>
+  <image id="43" name="component_4_8.0.jpg" width="264" height="191">
+    <box label="capicitor 1" source="manual" occluded="0" xtl="1.28" ytl="1.16" xbr="253.10" ybr="191.00" z_order="0">
+    </box>
+  </image>
+  <image id="44" name="component_5_0.0.jpg" width="168" height="164">
+    <box label="capicitor 1" source="manual" occluded="0" xtl="0.00" ytl="0.00" xbr="168.00" ybr="164.00" z_order="0">
+    </box>
+  </image>
+  <image id="45" name="component_5_1.0.jpg" width="123" height="99">
+    <box label="capicitor 1" source="manual" occluded="0" xtl="0.00" ytl="0.00" xbr="123.00" ybr="99.00" z_order="0">
+    </box>
+  </image>
+  <image id="46" name="component_5_2.0.jpg" width="230" height="276">
+    <box label="capicitor 1" source="manual" occluded="0" xtl="32.42" ytl="18.00" xbr="205.80" ybr="248.39" z_order="0">
+    </box>
+  </image>
+  <image id="47" name="component_5_4.0.jpg" width="168" height="186">
+    <box label="capicitor 1" source="manual" occluded="0" xtl="0.83" ytl="0.88" xbr="168.00" ybr="186.00" z_order="0">
+    </box>
+  </image>
+  <image id="48" name="component_5_5.0.jpg" width="126" height="231">
+    <box label="capicitor 1" source="manual" occluded="0" xtl="0.00" ytl="9.67" xbr="124.53" ybr="225.23" z_order="0">
+    </box>
+  </image>
+  <image id="49" name="component_5_7.0.jpg" width="112" height="119">
+    <box label="capicitor 1" source="manual" occluded="0" xtl="0.00" ytl="0.00" xbr="112.00" ybr="119.00" z_order="0">
+    </box>
+  </image>
+  <image id="50" name="component_5_8.0.jpg" width="184" height="228">
+    <box label="capicitor 1" source="manual" occluded="0" xtl="5.79" ytl="0.00" xbr="184.00" ybr="219.25" z_order="0">
+    </box>
+  </image>
+  <image id="51" name="component_6_0.0.jpg" width="194" height="196">
+    <box label="capicitor 1" source="manual" occluded="0" xtl="5.79" ytl="0.00" xbr="194.00" ybr="196.00" z_order="0">
+    </box>
+  </image>
+  <image id="52" name="component_6_1.0.jpg" width="125" height="117">
+    <box label="capicitor 1" source="manual" occluded="0" xtl="0.00" ytl="0.00" xbr="125.00" ybr="117.00" z_order="0">
+    </box>
+  </image>
+  <image id="53" name="component_6_2.0.jpg" width="190" height="249">
+    <box label="capicitor 1" source="manual" occluded="0" xtl="9.09" ytl="13.00" xbr="184.71" ybr="245.45" z_order="0">
+    </box>
+  </image>
+  <image id="54" name="component_6_3.0.jpg" width="236" height="278">
+    <box label="capicitor 1" source="manual" occluded="0" xtl="30.27" ytl="30.66" xbr="205.89" ybr="263.10" z_order="0">
+    </box>
+  </image>
+  <image id="55" name="component_6_4.0.jpg" width="161" height="182">
+    <box label="capicitor 1" source="manual" occluded="0" xtl="0.00" ytl="9.86" xbr="161.00" ybr="182.00" z_order="0">
+    </box>
+  </image>
+  <image id="56" name="component_6_5.0.jpg" width="186" height="114">
+    <box label="capicitor 1" source="manual" occluded="0" xtl="0.00" ytl="3.20" xbr="185.40" ybr="114.00" z_order="0">
+    </box>
+  </image>
+  <image id="57" name="component_6_7.0.jpg" width="84" height="82">
+    <box label="capicitor 1" source="manual" occluded="0" xtl="0.00" ytl="0.00" xbr="84.00" ybr="82.00" z_order="0">
+    </box>
+  </image>
+  <image id="58" name="component_6_8.0.jpg" width="335" height="294">
+    <box label="capicitor 1" source="manual" occluded="0" xtl="23.37" ytl="26.57" xbr="308.47" ybr="269.60" z_order="0">
+    </box>
+  </image>
+  <image id="59" name="component_7_0.0.jpg" width="118" height="152">
+    <box label="capicitor 1" source="manual" occluded="0" xtl="2.90" ytl="2.40" xbr="118.00" ybr="152.00" z_order="0">
+    </box>
+  </image>
+  <image id="60" name="component_7_1.0.jpg" width="153" height="151">
+    <box label="capicitor 1" source="manual" occluded="0" xtl="24.95" ytl="0.24" xbr="140.05" ybr="149.84" z_order="0">
+    </box>
+  </image>
+  <image id="61" name="component_7_2.0.jpg" width="178" height="197">
+    <box label="capicitor 1" source="manual" occluded="0" xtl="16.82" ytl="13.10" xbr="160.70" ybr="183.30" z_order="0">
+    </box>
+  </image>
+  <image id="62" name="component_7_3.0.jpg" width="239" height="197">
+    <box label="capicitor 1" source="manual" occluded="0" xtl="16.51" ytl="12.16" xbr="232.30" ybr="182.36" z_order="0">
+    </box>
+  </image>
+  <image id="63" name="component_7_4.0.jpg" width="133" height="118">
+    <box label="capicitor 1" source="manual" occluded="0" xtl="0.00" ytl="0.00" xbr="133.00" ybr="118.00" z_order="0">
+    </box>
+  </image>
+  <image id="64" name="component_7_5.0.jpg" width="243" height="151">
+    <box label="capicitor 1" source="manual" occluded="0" xtl="4.10" ytl="22.05" xbr="233.91" ybr="140.05" z_order="0">
+    </box>
+  </image>
+  <image id="65" name="component_7_7.0.jpg" width="106" height="118">
+    <box label="capicitor 1" source="manual" occluded="0" xtl="0.00" ytl="0.00" xbr="106.00" ybr="110.27" z_order="0">
+    </box>
+  </image>
+  <image id="66" name="component_7_8.0.jpg" width="208" height="278">
+    <box label="capicitor 1" source="manual" occluded="0" xtl="0.00" ytl="0.00" xbr="200.00" ybr="269.60" z_order="0">
+    </box>
+  </image>
+  <image id="67" name="component_8_0.0.jpg" width="182" height="176">
+    <box label="capicitor 1" source="manual" occluded="0" xtl="0.00" ytl="0.00" xbr="182.00" ybr="176.00" z_order="0">
+    </box>
+  </image>
+  <image id="68" name="component_8_1.0.jpg" width="129" height="88">
+    <box label="capicitor 1" source="manual" occluded="0" xtl="0.00" ytl="0.00" xbr="129.00" ybr="88.00" z_order="0">
+    </box>
+  </image>
+  <image id="69" name="component_8_2.0.jpg" width="190" height="249">
+    <box label="capicitor 1" source="manual" occluded="0" xtl="0.00" ytl="0.00" xbr="184.30" ybr="249.00" z_order="0">
+    </box>
+  </image>
+  <image id="70" name="component_8_3.0.jpg" width="188" height="169">
+    <box label="capicitor 1" source="manual" occluded="0" xtl="2.12" ytl="0.00" xbr="180.65" ybr="203.00" z_order="0">
+    </box>
+  </image>
+  <image id="71" name="component_8_4.0.jpg" width="177" height="157">
+    <box label="capicitor 1" source="manual" occluded="0" xtl="4.24" ytl="0.00" xbr="177.00" ybr="157.00" z_order="0">
+    </box>
+  </image>
+  <image id="72" name="component_8_5.0.jpg" width="244" height="152">
+    <box label="capicitor 1" source="manual" occluded="0" xtl="0.40" ytl="0.00" xbr="240.94" ybr="152.00" z_order="0">
+    </box>
+  </image>
+  <image id="73" name="component_8_7.0.jpg" width="105" height="112">
+    <box label="capicitor 1" source="manual" occluded="0" xtl="0.00" ytl="0.00" xbr="105.00" ybr="112.00" z_order="0">
+    </box>
+  </image>
+  <image id="74" name="component_8_8.0.jpg" width="303" height="238">
+    <box label="capicitor 1" source="manual" occluded="0" xtl="0.00" ytl="0.00" xbr="303.00" ybr="213.60" z_order="0">
+    </box>
+  </image>
+  <image id="75" name="component_9_0.0.jpg" width="220" height="215">
+    <box label="capicitor 1" source="manual" occluded="0" xtl="0.00" ytl="0.00" xbr="220.00" ybr="205.75" z_order="0">
+    </box>
+  </image>
+  <image id="76" name="component_9_1.0.jpg" width="138" height="136">
+    <box label="capicitor 1" source="manual" occluded="0" xtl="0.00" ytl="0.00" xbr="138.00" ybr="136.00" z_order="0">
+    </box>
+  </image>
+  <image id="77" name="component_9_2.0.jpg" width="217" height="261">
+    <box label="capicitor 1" source="manual" occluded="0" xtl="0.00" ytl="0.00" xbr="208.80" ybr="254.50" z_order="0">
+    </box>
+  </image>
+  <image id="78" name="component_9_3.0.jpg" width="206" height="235">
+    <box label="capicitor 1" source="manual" occluded="0" xtl="0.00" ytl="0.00" xbr="185.90" ybr="196.75" z_order="0">
+    </box>
+  </image>
+  <image id="79" name="component_9_4.0.jpg" width="163" height="139">
+    <box label="capicitor 1" source="manual" occluded="0" xtl="0.00" ytl="0.00" xbr="163.00" ybr="139.00" z_order="0">
+    </box>
+  </image>
+  <image id="80" name="component_9_5.0.jpg" width="118" height="221">
+    <box label="capicitor 1" source="manual" occluded="0" xtl="0.00" ytl="0.00" xbr="118.00" ybr="221.00" z_order="0">
+    </box>
+  </image>
+  <image id="81" name="component_9_7.0.jpg" width="86" height="76">
+    <box label="capicitor 1" source="manual" occluded="0" xtl="0.00" ytl="0.00" xbr="86.00" ybr="76.00" z_order="0">
+    </box>
+  </image>
+  <image id="82" name="component_9_8.0.jpg" width="299" height="237">
+    <box label="capicitor 1" source="manual" occluded="0" xtl="0.00" ytl="0.00" xbr="298.90" ybr="237.00" z_order="0">
+    </box>
+  </image>
+</annotations>

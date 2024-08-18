@@ -1,0 +1,75 @@
+# yolov10n.yaml
+# YOLOv10 Nano (yolov10n) model configuration for training and detection
+
+# Model Settings
+nc: 9  # Number of classes (update this according to your dataset)
+depth_multiple: 0.25  # Depth scaling factor
+width_multiple: 0.25  # Width scaling factor
+
+# Backbone: Feature Extraction
+backbone:
+  - type: Conv  # Initial convolutional layer
+    args:
+      filters: 32
+      kernel_size: 3
+      stride: 1
+  - type: C3  # CSP bottleneck with 3 layers
+    args:
+      filters: 64
+      num_repeats: 1
+  - type: C3
+    args:
+      filters: 128
+      num_repeats: 2
+  - type: C3
+    args:
+      filters: 256
+      num_repeats: 3
+  - type: SPPF  # Spatial Pyramid Pooling Fast
+    args:
+      filters: 512
+      kernel_size: 5
+
+# Neck: Feature Aggregation
+neck:
+  - type: C3
+    args:
+      filters: 256
+      num_repeats: 1
+  - type: C3
+    args:
+      filters: 128
+      num_repeats: 1
+
+# Head: Detection Layers
+head:
+  - type: Detect  # Detection layer for generating final bounding boxes
+    args:
+      num_classes: nc
+      anchors: 3  # Number of anchor boxes per output layer
+
+# Training Hyperparameters
+train:
+  batch_size: 16
+  learning_rate: 0.01
+  momentum: 0.937
+  weight_decay: 0.0005
+  warmup_epochs: 3
+  warmup_momentum: 0.8
+  warmup_bias_lr: 0.1
+  box_loss_gain: 0.05
+  cls_loss_gain: 0.5
+  obj_loss_gain: 1.0
+  iou_loss_gain: 0.2
+  anchor_t: 4.0
+  anchor_auto: True
+
+# Testing Hyperparameters
+test:
+  conf_thres: 0.25  # Confidence threshold for predictions
+  iou_thres: 0.45  # IoU threshold for non-maximum suppression (NMS)
+
+# Additional Configuration (Optional)
+augment: True  # Enable data augmentation during training
+mosaic: True  # Enable mosaic augmentation
+
