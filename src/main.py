@@ -16,9 +16,9 @@ def load_model(path):
 def upload_file():
     img = None
     img_path = None
-    contents = os.listdir('../dataset/test/images')
-    if st.sidebar.button('Choose random'):
-        img_path ='../dataset/test/images/' + np.random.choice(contents)    
+    # contents = os.listdir('../dataset/test/images')
+    # if st.sidebar.button('Choose random image from test dir'):
+    #     img_path ='../dataset/test/images/' + np.random.choice(contents)    
     if not img:
         img = st.sidebar.file_uploader("Upload an image", type=["jpg", "jpeg", "png"])
     if img_path:
@@ -46,7 +46,7 @@ uploaded_file = upload_file()
 
 if uploaded_file is not None:
     image = Image.open(uploaded_file)
-    with st.spinner('Finding Compenet...'):
+    with st.spinner('Finding coponents...'):
         results = model(image)
     image_array = results[0].orig_img
 
